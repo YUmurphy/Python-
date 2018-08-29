@@ -1,0 +1,10 @@
+age_of_xiaobai = 56
+while True:
+    guess_age = int(input("guess his age:"))
+    if guess_age == age_of_xiaobai:
+        print('yes,you are right')
+        break
+    elif guess_age < age_of_xiaobai:
+        print('please think a bigger number')
+    else:
+        print("think smaller")
