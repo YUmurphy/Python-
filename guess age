@@ -10,7 +10,7 @@ count=0
     else:
         print("think smaller")
     count=count+1'''
-for i in range(3):
+'''for i in range(3):
     guess_age = int(input("guess his age:"))
     if guess_age == age_of_xiaobai:
         print('yes,you are right')
@@ -21,10 +21,26 @@ for i in range(3):
         print("think smaller")
 else:
     print("you have tried too many times,fuck off")
+    '''
+
+while count<3:
+    guess_age = int(input("guess his age:"))
+    if guess_age == age_of_xiaobai:
+        print('yes,you are right')
+        break
+    elif guess_age < age_of_xiaobai:
+        print('please think a bigger number')
+    else:
+        print("think smaller")
+    count=count+1
+if count==3:
+    confirm=input("do you want to keep playing this game?(y/n)")
+    if confirm=="y":
+        count=0
+    if confirm=="n":
+        print("you have tried too many times,fuck off")
 
 
 
 
-    
-    -----------------or--------------
-    
+
