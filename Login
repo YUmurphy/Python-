@@ -1,0 +1,12 @@
+_username = "kira"
+_password = "hehe"
+username = input("username:")
+password = input("password:")
+
+if _username == username and _password == password:
+    print("Welcome user {name} login...".format(name=username))
+    print(username,password)
+else:
+    print("Invalid username or password!")
+    print("let's do it again")
+
