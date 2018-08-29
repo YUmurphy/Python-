@@ -33,12 +33,12 @@ while count<3:
     else:
         print("think smaller")
     count=count+1
-if count==3:
-    confirm=input("do you want to keep playing this game?(y/n)")
-    if confirm=="y":
-        count=0
-    if confirm=="n":
-        print("you have tried too many times,fuck off")
+    if count==3:
+        confirm=input("do you want to keep playing this game?(y/n)")
+        if confirm=="y":
+            count=0
+        if confirm=="n":
+            print("you have tried too many times,fuck off")
 
 
 
