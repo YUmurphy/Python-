@@ -1,0 +1,37 @@
+Names=['CHentao','Yutianbai',"Longlong"]
+
+'''print(Names)
+Names[0]="陈涛"
+Names.append("于")
+Names.insert(2,"龙傲天")
+Names3=["花千骨","剑侠"]
+Names.append(Names3)
+Names2=Names.copy()
+print(Names)
+print(Names2)
+print(Names[5])'''
+import copy
+names=["4ZhangYang","Guyun","xiangpeng"]
+names.append(["alex","Kira"])
+names2=copy.deepcopy(names)
+print(names)
+print(names2)
+names[2]="先锋"
+names[3][0]="Alex"
+print(names)
+print(names2)
+names2=names.copy()
+print(names)
+print(names2)
+
+
+'''import copy
+a =[1,2,3]
+b=copy.deepcopy(a)#防止a的变动导致b数据出错
+a[1]=555
+print(b)'''
+
+print(names[0:-1:2])
+print(names[::2])
+print(names[:])
+print(names[:2])
